@@ -1,5 +1,5 @@
 <div>
     <button (click)="userClicked()">
-        <img [src]="img_path" [alt]="selectedUser.name" />
-        {{selectedUser.name}}</button>
+        <img [src]="img_path()" [alt]="selectedUser().name" />
+        {{selectedUser().name}}</button>
 </div>
